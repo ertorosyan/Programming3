@@ -30,9 +30,10 @@
 
 
 class Grass {
-    constructor(x, y) {
+    constructor(x, y,index) {
         this.x = x;
         this.y = y;
+        this.index=index;
         this.multiply = 0;
         this.directions = [
             [this.x - 1, this.y - 1],
@@ -98,9 +99,10 @@ class Grass {
 
 
 class Xotaker {
-    constructor(x, y) {
+    constructor(x, y,index) {
         this.x = x;
         this.y = y;
+        this.index=index;
         this.multyply = 0
         this.energy = 8;
         this.directions = [];
@@ -221,9 +223,10 @@ class Xotaker {
 
 
 class Gishatich {
-    constructor(x, y) {
+    constructor(x, y,index) {
         this.x = x;
         this.y = y;
+        this.index=index;
         this.multyply = 0
         this.energy = 5;
         this.directions = [];
@@ -373,9 +376,10 @@ class Gishatich {
 
 
 class Amenaker {
-    constructor(x, y) {
+    constructor(x, y,index) {
         this.x = x;
         this.y = y;
+        this.index=index;
         this.multyply = 0
         this.energy = 8;
         this.directions = [];
@@ -523,9 +527,10 @@ class Amenaker {
 
 
 class Kaycak {
-    constructor(x, y) {
+    constructor(x, y,index) {
         this.x = x;
         this.y = y;
+        this.index=index;
         this.energy = 1;
     }
 
